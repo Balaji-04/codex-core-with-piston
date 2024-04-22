@@ -1,0 +1,23 @@
+{
+  "name": "codex",
+  "version": "1.0.0",
+  "description": "A code execution system built on top of open source piston engine crafted for our needs.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js BUILD=PROD",
+    "dev": "nodemon index.js BUILD=DEV"
+  },
+  "author": "Balaji T",
+  "license": "MIT",
+  "dependencies": {
+    "ace-code": "^1.33.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "piston-client": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
