@@ -15,12 +15,12 @@ CodeX is a simple web application that provides an online code execution environ
    ` npm run dev`
 3. Send a POST request to `/execute` route in the below specified format.
 
-````{
+`````{
  "lang": "python",
  "typedcode": "print('Hello\\n world!')"
-}```
+}````
 4. The response JSON will look like,
-```{
+````{
     "status": "success",
     "data": {
         "language": "python",
@@ -34,7 +34,7 @@ CodeX is a simple web application that provides an online code execution environ
         }
     }
 }
-````
+`````
 
 ## About PISTON API
 
